@@ -1,0 +1,15 @@
+footer{
+    background: $black-bg;
+    h1{
+        color: $green-color;
+    }
+    input{
+        background: transparent;
+    }
+    input:focus{
+        outline: none;
+    }
+    button{
+        background: $green-color !important;
+    }
+}

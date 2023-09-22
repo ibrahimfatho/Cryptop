@@ -1,0 +1,12 @@
+.main-btn{
+    background: $navbar-bg !important;
+    color: $white-color !important;
+}
+#home{
+    background-image: url(./../../images/Home/home-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+}

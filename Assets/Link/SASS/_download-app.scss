@@ -1,0 +1,10 @@
+#download-app{
+    background: linear-gradient(90deg, $green-color, $blue-color);
+    width:  100%;
+    height: fit-content;
+    a{
+        &:hover{
+            text-decoration: underline !important;
+        }
+    }
+}

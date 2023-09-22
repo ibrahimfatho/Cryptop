@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    padding-top: 60px;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+// Colors
+
+$white-color : #fff;
+$black-bg : #171717;
+$navbar-bg : #151618;
+$shadow : #f1f1f1;
+$gray-color : #f6f5f7;
+$green-color : #30ae69;
+$blue-color : #072e85;
+
+// Main Titel
+
+.main-titel{
+    
+    width: fit-content;
+    h1{
+        font-size: 1.5rem;
+        position: relative;
+        padding: 0 !important;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%;
+            height: 3px;
+            background: $green-color;
+            transition: .5s;
+        }
+    }
+}

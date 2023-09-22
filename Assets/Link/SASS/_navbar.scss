@@ -1,0 +1,32 @@
+nav {
+    background: $navbar-bg;
+    ul {
+        li {
+            width: fit-content;
+            a {
+                position: relative;
+                padding: 0 !important;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: -0.2rem;
+                    left: 0;
+                    width: 0%;
+                    height: 2px;
+                    background: $green-color;
+                    transition: 0.5s;
+                }
+            }
+            &:hover a::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
